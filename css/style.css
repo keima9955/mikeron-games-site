@@ -226,3 +226,12 @@ a.zoom:hover img { transform: scale(1.02); }
 /* サークルについての目標の箇条書き */
 .aims { margin: 0 0 1em; padding-left: 1.4em; }
 .aims li { margin-bottom: .3em; }
+
+/* スマホ：メニューが 1 行に収まるよう間隔を詰め、冒頭のボタン 2 つが並ぶよう小さく */
+@media (max-width: 480px) {
+  .site-header .container { gap: 8px; }
+  .nav { gap: 4px 12px; font-size: .9rem; }
+  .nav a.lang { padding: 6px 10px; margin-left: 2px; font-size: .8rem; }
+  .btn { padding: 8px 14px; font-size: .9rem; }
+  .btn + .btn { margin-left: 6px; }
+}
