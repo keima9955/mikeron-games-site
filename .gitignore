@@ -1,0 +1,9 @@
+.Rhistory
+.Rproj.user/
+*.Rproj
+Thumbs.db
+.DS_Store
+# 作業用のスクリプトやメモはこのリポジトリに入れない（proj3/website/ に置く）
+tools/
+*.R
+_qrcheck/
